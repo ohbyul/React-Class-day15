@@ -1,12 +1,15 @@
 import React from 'react';
-import Test2 from './components/Test2';
+import {Gallery} from './sample';
+//import Test2 from './components/Test6';
 
 const App = () => {
   return (
     <div>
-      <Test2 />
+      {/* <Test2 /> */}
+      <Gallery />
     </div>
   );
 };
 
 export default App;
+
