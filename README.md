@@ -1,5 +1,27 @@
 # day 15 / 16 / 17
+참고 사이트 및 링크
+```
+json 제공사이트
+https://jsonplaceholder.typicode.com
+https://jsonplaceholder.typicode.com/posts
 
+검색
+https://hn.algolia.com/
+http://hn.algolia.com/api/v1/search?query=검색어
+
+뉴스
+https://newsapi.org/register
+https://newsapi.org/s/south-korea-news-api
+
+reset 설치
+https://www.npmjs.com/package/styled-reset
+
+pixabay
+https://pixabay.com/api/docs/
+
+pinterest 유형 메이슨리 
+https://www.npmjs.com/package/react-masonry-css
+```
 ## ▶ day 15 [12 /23]
 ```
 yarn add sass 
