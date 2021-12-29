@@ -33,8 +33,7 @@ const GalleyList = ({data}) => {
                 columnClassName="my-masonry-grid_column">
                 {/* array of JSX items */}
                 {
-                    data.map( item => <GalleryItem item = {data}/>
-                        )
+                data.map( item => <GalleryItem key={item.id} item={item} /> )
                 }
             </Masonry>
         </ImageContainer>
