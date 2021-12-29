@@ -1,6 +1,6 @@
 # day 15 / 16 / 17
 
-## day 15 [12 /23]
+## ▶ day 15 [12 /23]
 ```
 yarn add sass 
 yarn add styled-components
@@ -34,7 +34,7 @@ axios / async / fetch 사용법
 ### Test2.js
 인풋박스에 정보 받아서 정보 검색
 
-## day 16 [12 /28]
+## ▶ day 16 [12 /28]
 ### Test3.js / Test4.js
 axios 사용 및 로딩 에러 처리
 ### Test5.js
@@ -44,3 +44,6 @@ https://hn.algolia.com/api/v1/search?query=검색어
 ```
 ### Test6.js
 styled-components /newsapi 사용
+
+### sample 폴더
+갤러리pixabay 사용하여, 작은 프로젝트 만들기 (day 17 연결)
