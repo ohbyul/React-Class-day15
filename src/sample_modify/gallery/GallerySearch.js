@@ -1,20 +1,6 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import {ImageForm} from '../styled/pixastyle'
 
-const ImageForm = styled.form`
-    text-align:center; padding : 25px 0;
-    div{
-        input{
-            width : 400px;
-            height : 45px;
-            box-sizing : border-box;border : 1px solid #999;
-            outline : none;
-        }
-        button {
-            width : 120px; height : 45px ; background : #000 ; color : #fff; vertical-align : top ; border:none;
-        }
-    }
-`
 
 const GallerySearch = ({onSearch}) => {
 

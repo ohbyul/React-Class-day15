@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import GlobalStyle from '../styled/Global'
-import styled from 'styled-components'
 import axios from 'axios'
 import GallerySearch from './GallerySearch';
 import GalleyList from './GalleyList';
+import {Container} from '../styled/pixastyle'
 
-const Container = styled.div`
-    width : 1400px ; margin : 0 auto; 
-`
 
 const Gallery = () => {
     const [data, setData] = useState([])
