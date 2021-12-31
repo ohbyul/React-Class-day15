@@ -49,7 +49,7 @@ export default Test2;
 
 
     
-    useCallback : 함수 를 기억한다
+    useCallback : 함수 를 기억한다 - 모든 함수에 처리하는 것이 아니다 95% 처리한다.
     useCallback( () => {} , deps)
     useCallback(함수, 의존성)
     useCallback(함수, [])
