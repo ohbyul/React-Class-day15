@@ -69,3 +69,43 @@ styled-components /newsapi 사용
 
 ### sample 폴더
 갤러리pixabay 사용하여, 작은 프로젝트 만들기 (day 17 연결)
+
+## ▶ day 17 
+### [components_day17] - Test1.js / Test1paging.js
+```
+페이징 처리 작은 프로젝트
+```
+### [components_day17] - Test2.js - Test4.js
+useMemo 
+```
+    성능 최적화를 위해 사용
+    useMemo / useCallback : 메모 이퀘이션
+    useMemo :  return 값을 기억
+    useCallback : 함수 를 기억 (함수 자체를 기억)
+    useMemo : 잘쓰기 쉽지 않다 (많이 사용 안한다.)
+             + context 사용한다
+    
+    useMemo( () => {} , deps)
+    useMemo(함수, 의존성)
+    useMemo(함수, [])
+    useMemo(함수, [바뀌는값])
+    
+    useCallback : 함수 를 기억한다 - 모든 함수에 처리하는 것이 아니다 95% 처리한다.
+    useCallback( () => {} , deps)
+    useCallback(함수, 의존성)
+    useCallback(함수, [])
+    useCallback(함수, [바뀌는값])
+```
+
+## ▶ day 18
+### [components_day17] - Test5.js - Test6.js
+useMemo 활용
+### [components_day17] - Test7.js
+useCallback 사용
+### [components_day17] - Test8.js
+useMemo / useCallback 
+같이 사용
+### [components_day17] - Test9.js
+React.memo 사용
+### [components_day17] - Test10.js
+React.memo(컴포넌트) / useCallback 연결 
