@@ -1,4 +1,4 @@
-# day 15 / 16 / 17
+# day 15 / 16 / 17 / 18
 참고 사이트 및 링크
 ```
 json 제공사이트
@@ -22,7 +22,7 @@ https://pixabay.com/api/docs/
 pinterest 유형 메이슨리 
 https://www.npmjs.com/package/react-masonry-css
 ```
-## ▶ day 15 [12 /23]
+## 😎 day 15 [12 /23]
 ```
 yarn add sass 
 yarn add styled-components
@@ -56,7 +56,7 @@ axios / async / fetch 사용법
 ### Test2.js
 인풋박스에 정보 받아서 정보 검색
 
-## ▶ day 16 [12 /28]
+## 😎 day 16 [12 /28]
 ### Test3.js / Test4.js
 axios 사용 및 로딩 에러 처리
 ### Test5.js
@@ -70,7 +70,7 @@ styled-components /newsapi 사용
 ### sample 폴더
 갤러리pixabay 사용하여, 작은 프로젝트 만들기 (day 17 연결)
 
-## ▶ day 17 
+## 😎 day 17 
 ### [components_day17] - Test1.js / Test1paging.js
 ```
 페이징 처리 작은 프로젝트
@@ -97,7 +97,7 @@ useMemo
     useCallback(함수, [바뀌는값])
 ```
 
-## ▶ day 18
+## 😎 day 18
 ### [components_day17] - Test5.js - Test6.js
 useMemo 활용
 ### [components_day17] - Test7.js
