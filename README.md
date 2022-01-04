@@ -32,7 +32,7 @@ yarn add react-masonry-css
 ```
 import axios from 'axios'
 
-### Test1.js
+#### Test1.js
 axios / async / fetch 사용법
 ```
     Ajax : 서버로부터 새로고침 없이 요청할수 있게 도와줌
@@ -53,29 +53,36 @@ axios / async / fetch 사용법
         외부파일 가져오기 
     },[])
 ```
-### Test2.js
+#### Test2.js
 인풋박스에 정보 받아서 정보 검색
 
+
+
+
+
 ## 😎 day 16 [12 /28]
-### Test3.js / Test4.js
+#### Test3.js / Test4.js
 axios 사용 및 로딩 에러 처리
-### Test5.js
+#### Test5.js
 검색어 받아서 JSON 정보 호출
 ```
 https://hn.algolia.com/api/v1/search?query=검색어
 ```
-### Test6.js
+#### Test6.js
 styled-components /newsapi 사용
 
-### sample 폴더
+#### sample 폴더
 갤러리pixabay 사용하여, 작은 프로젝트 만들기 (day 17 연결)
 
+
+
+
 ## 😎 day 17 
-### [components_day17] - Test1.js / Test1paging.js
+#### [components_day17] - Test1.js / Test1paging.js
 ```
 페이징 처리 작은 프로젝트
 ```
-### [components_day17] - Test2.js - Test4.js
+#### [components_day17] - Test2.js - Test4.js
 useMemo 
 ```
     성능 최적화를 위해 사용
@@ -97,15 +104,17 @@ useMemo
     useCallback(함수, [바뀌는값])
 ```
 
+
+
 ## 😎 day 18
-### [components_day17] - Test5.js - Test6.js
+#### [components_day17] - Test5.js - Test6.js
 useMemo 활용
-### [components_day17] - Test7.js
+#### [components_day17] - Test7.js
 useCallback 사용
-### [components_day17] - Test8.js
+#### [components_day17] - Test8.js
 useMemo / useCallback 
 같이 사용
-### [components_day17] - Test9.js
+#### [components_day17] - Test9.js
 React.memo 사용
-### [components_day17] - Test10.js
+#### [components_day17] - Test10.js
 React.memo(컴포넌트) / useCallback 연결 
